@@ -1,0 +1,172 @@
+.header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: #1d4259;
+}
+
+.main {
+  padding: 30px;
+}
+
+.is-flex {
+  display: flex;
+}
+
+.is-align-center {
+  align-items: center;
+}
+
+.logo {
+  padding-left: 15px;
+}
+
+.logo-name {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.logo-description {
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.local-menu {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.local-code {
+  color: white;
+  font-size: 15px;
+}
+
+.new-plan-button {
+  background: #3ea3dc;
+  height: 40px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-left: auto;
+}
+
+.new-plan-button:hover {
+  background: #57b1e6;
+}
+
+.new-plan-button:active {
+  background: #3ea3dc;
+}
+
+.profile-container {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #ebf6fb;
+  padding: 15px;
+  position: relative;
+}
+
+.label-1 {
+  color: gray;
+  font-size: 13px;
+}
+
+.label-2 {
+  color: #1d4259;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.label-3 {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 12px;
+}
+
+.label-4 {
+  font-size: 12px;
+  font-style: italic;
+  color: gray;
+}
+
+.label-5 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1d4259;
+}
+
+.edit-profile-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.financial-plan-title {
+  color: gray;
+  font-size: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.plan-container {
+  padding-top: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.new-plan-sub-button {
+  width: 300px;
+  height: 150px;
+  border: 1px dashed gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.plan-card {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.plan-card-created-at {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
+
+.card-delete {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: rgb(201, 0, 0);
+  cursor: pointer;
+}
+
+.card-delete:hover {
+  color: red;
+}
+
+.card-delete:active {
+  color: rgb(201, 0, 0);
+}
